@@ -24,6 +24,7 @@ For our [open source][oss] projects, we recommend filing issues in the relevant 
 | [Zero to Nix][z2n]           | [DeterminateSystems/zero-to-nix][z2n-issues]             |
 
 [det-nix]: https://docs.determinate.systems/determinate-nix
+[discussions]: https://github.com/DeterminateSystems/issues/discussions
 [docs]: https://docs.determinate.systems
 [fh]: https://github.com/DeterminateSystems/fh
 [fh-issues]: https://github.com/DeterminateSystems/fh/issues
