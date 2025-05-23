@@ -10,3 +10,27 @@
 </p>
 
 # ️❄️ Determinate Systems issues
+
+Use this repo's [issues] section if you need to report issues with [FlakeHub] or Determinate's official documentation at [docs.determinate.systems][docs].
+
+For our [open source][oss] projects, we recommend filing issues in the relevant repository.
+
+| Project                    | Repository                                               |
+| :------------------------- | :------------------------------------------------------- |
+| [Determinate Nix][det-nix] | [DeterminateSystems/nix-src][nix-src-issues]             |
+| Determinate Nix Installer  | [DeterminateSystems/nix-installer][installer-issues]     |
+| Flake Checker              | [DeterminateSystems/flake-checker][flake-checker-issues] |
+| fh, the CLI for [FlakeHub] | [DeterminateSystems/fh][fh-issues]                       |
+| [Zero to Nix][z2n]         | [DeterminateSystems/zero-to-nix][z2n-issues]             |
+
+[det-nix]: https://docs.determinate.systems/determinate-nix
+[docs]: https://docs.determinate.systems
+[fh]: https://github.com/DeterminateSystems/fh/issues
+[flake-checker-issues]: https://github.com/DeterminateSystems/flake-checker/issues
+[flakehub]: https://flakehub.com
+[installer-issues]: https://github.com/DeterminateSystems/nix-installer/issues
+[issues]: https://github.com/DeterminateSystems/issues/issues
+[nix-src-issues]: https://github.com/DeterminateSystems/nix-src/issues
+[oss]: https://determinate.systems/oss
+[z2n]: https://zero-to-nix.com
+[z2n-issues]: https://github.com/DeterminateSystems/zero-to-nix/issues

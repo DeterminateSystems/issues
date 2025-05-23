@@ -15,6 +15,8 @@ jobs:
     permissions:
       id-token: write
       contents: read
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -27,4 +29,7 @@ jobs:
       - uses: DeterminateSystems/flakehub-cache-action@main
 
       - name: Check README links
-        run: nix develop --command lychee README.md
+        run: nix develop --command \
+          lychee \
+            --github-token ${{ env.GITHUB_TOKEN }} \
+            README.md
