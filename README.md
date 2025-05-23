@@ -15,17 +15,18 @@ Use this repo's [issues] section if you need to report issues with [FlakeHub] or
 
 For our [open source][oss] projects, we recommend filing issues in the relevant repository.
 
-| Project                    | Repository                                               |
-| :------------------------- | :------------------------------------------------------- |
-| [Determinate Nix][det-nix] | [DeterminateSystems/nix-src][nix-src-issues]             |
-| Determinate Nix Installer  | [DeterminateSystems/nix-installer][installer-issues]     |
-| Flake Checker              | [DeterminateSystems/flake-checker][flake-checker-issues] |
-| fh, the CLI for [FlakeHub] | [DeterminateSystems/fh][fh-issues]                       |
-| [Zero to Nix][z2n]         | [DeterminateSystems/zero-to-nix][z2n-issues]             |
+| Project                      | Repository                                               |
+| :--------------------------- | :------------------------------------------------------- |
+| [Determinate Nix][det-nix]   | [DeterminateSystems/nix-src][nix-src-issues]             |
+| Determinate Nix Installer    | [DeterminateSystems/nix-installer][installer-issues]     |
+| Flake Checker                | [DeterminateSystems/flake-checker][flake-checker-issues] |
+| [fh], the CLI for [FlakeHub] | [DeterminateSystems/fh][fh-issues]                       |
+| [Zero to Nix][z2n]           | [DeterminateSystems/zero-to-nix][z2n-issues]             |
 
 [det-nix]: https://docs.determinate.systems/determinate-nix
 [docs]: https://docs.determinate.systems
-[fh]: https://github.com/DeterminateSystems/fh/issues
+[fh]: https://github.com/DeterminateSystems/fh
+[fh-issues]: https://github.com/DeterminateSystems/fh/issues
 [flake-checker-issues]: https://github.com/DeterminateSystems/flake-checker/issues
 [flakehub]: https://flakehub.com
 [installer-issues]: https://github.com/DeterminateSystems/nix-installer/issues
