@@ -17,12 +17,9 @@ jobs:
       contents: read
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NIXPKGS: https://flakehub.com/f/NixOS/nixpkgs/=0.2505.810859
     steps:
       - uses: actions/checkout@v4
-
-      - uses: DeterminateSystems/flake-checker-action@main
-        with:
-          fail-mode: false
 
       - uses: DeterminateSystems/determinate-nix-action@main
 
@@ -30,7 +27,6 @@ jobs:
 
       - name: Check README links
         run: |
-          nix develop --command \
-            lychee \
-              --github-token ${{ env.GITHUB_TOKEN }} \
-              README.md
+          nix run "${{ env.NIXPKGS }}#lychee" -- \
+            --github-token ${{ env.GITHUB_TOKEN }} \
+            README.md

@@ -9,11 +9,14 @@
   &nbsp;<a href="https://www.linkedin.com/company/determinate-systems" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-1667be?style=for-the-badge&logo=linkedin&logoColor=%23ffffff"></a>&nbsp;
 </p>
 
-# ️❄️ Determinate Systems issues
+# ️❄️ File issues for Determinate Systems projects
 
-Use this repo's [issues] section if you need to report issues with [FlakeHub] or Determinate's official documentation at [docs.determinate.systems][docs].
+Use this repo's [issues] section if you need to report issues with:
 
-For our [open source][oss] projects, we recommend filing issues in the relevant repository.
+- [FlakeHub] or
+- Determinate's official documentation at [docs.determinate.systems][docs].
+
+For our [open source projects][oss], we recommend filing issues in the relevant repository.
 
 | Project                      | Repository                                               |
 | :--------------------------- | :------------------------------------------------------- |
